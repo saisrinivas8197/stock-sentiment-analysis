@@ -7,4 +7,6 @@
 - Headlines are then vectorized using CountVectorizer and a random forest model from scikit-learn is fit on the top of these vectorized inputs along with the dependant variable Label.
 - Performance of this model is tested using test data where the data is gone through processing techniques similar to that of the train data 
 - Accuracy of the model came out to be 0.8412.
-- 
+- Similarly, I used TF-IDF Vectorizer for text classification of headlines and then random forest model has been built on this vectorized inputs and target variable.
+- However, performance of this model using Tf-IDF Vectorizer was low on the test dataset compared to the model that used Count Vectorizer technique.
+- Accuracy of random forest model with Tf-Idf Vectorizer was observed to be 0.8333.
